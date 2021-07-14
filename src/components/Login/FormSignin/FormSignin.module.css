@@ -1,0 +1,43 @@
+.cont-form-sign {
+  padding: 2rem 2rem;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.cont-form-sign h3 {
+  margin: 0;
+}
+
+.cont-form-sign p {
+  color: #a6a6a6;
+}
+
+.cont-form-sign p span {
+  color: var(--blue);
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
+@media (min-width: 768px) {
+  .cont-img-form {
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../../../assets/images/coins.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cont-img-form h2{
+      margin: 0;
+      text-align: center;
+      color: var(--blue);
+  }
+}

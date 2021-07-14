@@ -1,0 +1,19 @@
+.cont-table{
+    width: 100%;
+    text-align: center;
+    overflow-x: scroll;
+}
+
+.cont-table h3{
+    color: var(--cereise);
+    text-transform: uppercase;
+}
+
+.cont-table h3 span{
+    color: black
+   
+}
+
+.cont-table .controls{
+    margin-top: 2rem;
+}

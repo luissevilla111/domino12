@@ -1,0 +1,39 @@
+.background {
+  width: 100vw;
+  min-height: 100vh;
+  /* height: 100vh;
+  overflow: scroll; */
+
+  background: hsla(200, 100%, 42%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(200, 100%, 42%, 1) 0%,
+    hsla(216, 40%, 58%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(200, 100%, 42%, 1) 0%,
+    hsla(216, 40%, 58%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(200, 100%, 42%, 1) 0%,
+    hsla(216, 40%, 58%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#008DD5", endColorstr="#698CBF", GradientType=1 );
+  padding: 5rem 0;
+}
+
+.background-padding{
+  padding-top: 5rem;
+}
+
+.snow{
+  background: var(--snow)!important ;
+  /* background: rgba(255, 255, 255, 0.9); */
+  
+}
