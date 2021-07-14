@@ -1,0 +1,25 @@
+.button {
+  background-color: var(--blue); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 1rem;
+  font-size: 1.7rem;
+  
+}
+
+.button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.cereise{
+  background: var(--cereise);
+}
+
+.red{
+  background: #ff1a1a;
+}

@@ -1,0 +1,72 @@
+.form-signin {
+  display: grid;
+  row-gap: 1rem;
+}
+
+/* .cont-form-sign p span a {
+    color: var(--blue);
+    font-weight: 600;
+    
+  } */
+
+.formSignin-group {
+  display: grid;
+  row-gap: 0.5rem;
+}
+
+.formSignin-group label {
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.formSignin-group input {
+  height: 4rem;
+  border-radius: 1rem;
+}
+
+.formSignin-group input::placeholder {
+  color: #a6a6a6;
+}
+
+.cont-pwd-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cont-pwd-info a {
+  color: var(--blue);
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.cont-button {
+  width: 100%;
+  padding: 1.6rem 0;
+}
+
+.cont-button button {
+  display: block;
+  width: 100%;
+}
+
+.cont-img-form {
+  width: 0%;
+}
+
+.error-input {
+  color: red!important;
+  margin: 0;
+  animation: blinkError 0.5s infinite alternate;
+}
+
+@keyframes blinkError {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 0;
+    }
+}

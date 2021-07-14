@@ -1,0 +1,42 @@
+.table-player {
+  width: 100%;
+  border: var(--cereise) 0.2rem solid;
+  padding: 1rem;
+  border-collapse: collapse;
+  
+}
+
+.table-player thead {
+  font-size: 1.8rem;
+  background: var(--cereise);
+  color: white;
+}
+.table-player thead tr th {
+  border: red 0.2rem solid;
+}
+
+.table-player thead tr th {
+  padding: 1rem 0.5rem;
+}
+
+.table-player tbody tr {
+  font-size: 2rem;
+}
+
+.table-player tbody tr td {
+  padding: 0.5rem 0;
+}
+
+.table-player tbody tr td input[type="text"] {
+  height: 2.5rem;
+  border-radius: 1rem;
+  width: 80%;
+}
+
+
+.table-player tbody tr:nth-child(even) {
+  background: var(--rose);
+}
+.table-player tbody tr:nth-child(odd) {
+  background: var(--snow);
+}

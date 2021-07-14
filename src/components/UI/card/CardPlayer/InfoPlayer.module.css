@@ -1,0 +1,30 @@
+
+.mini-card{
+    background: var(--cereise);
+    color: white;
+    text-align: center;
+    width: 100%;
+    border-right: 1px black solid ;
+    border-top: 1px black solid;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 1rem;
+
+    /* border-radius: 0rem 0rem 1rem 0rem;
+  -moz-border-radius: 0rem 0rem 1rem 0rem;
+  -webkit-border-radius: 0rem 0rem 1rem 0rem;
+  border: 0rem solid #000000; */
+}
+.mini-card h4,p{
+  margin: 0;
+}
+
+.tipo1{
+  border-bottom-left-radius: 1rem;
+  
+}
+.tipo3{
+  border-bottom-right-radius: 1rem;
+  border-right: 0px black solid ;
+  
+}
